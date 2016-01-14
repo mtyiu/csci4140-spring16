@@ -1,0 +1,124 @@
+dl.dl-horizontal dt {
+	width: 90px;
+}
+
+dl.dl-horizontal dd {
+	margin-left: 100px;
+}
+
+.week:after {
+	content: '\00a0';
+}
+
+.date:after {
+	content: '\00a0\00a0';
+}
+
+.theme-title {
+	padding-right: 10px;
+	font-weight: normal;
+}
+
+.panel-default .panel-heading {
+	background-color: #eee;
+}
+
+.target {
+	color: #999;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 90%;
+	margin-bottom: 0;
+}
+
+.tags {
+	padding-top: 5px;
+	color: #999;
+}
+
+.recommendation {
+	padding-top: 15px;
+	color: #2196f3;
+}
+
+.tag {
+	background-color: #bbb;
+	margin-right: 3px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.panel-default a .panel-title {
+	color: #222;
+}
+
+.panel-danger a {
+	color: #fff;
+}
+
+.panel-default a:hover .panel-title,
+.panel-primary a:focus .panel-title {
+  color: #000;
+  text-decoration: underline;
+}
+
+.downloads .btn {
+	margin-bottom: 2px;
+}
+
+.divider {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-top: 1px dashed #ccc;
+}
+
+.divider-demo {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.modal-header {
+	background-color: #ddd;
+}
+
+.outline {
+	margin-bottom: 0;
+	padding: 10px;
+	border: 1px dashed #ddd;
+	background-color: #f5f5f5;
+}
+
+.nav .fa {
+	width: 20px;
+}
+
+.bg-alert {
+	color: #fff;
+	background-color: #aaa;
+}
+
+.alert a {
+	color: #eee !important;
+	font-weight: normal !important;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.news {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+
+.well-ph {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+	box-shadow: 6px 6px 6px #ddd;
+	background-color: #eee;
+	border: 1px dashed #eee;
+}
+
+.well-ph > .col-sm-7 > .note {
+	color: #aaa;
+}

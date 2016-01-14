@@ -1,0 +1,11 @@
+[
+	{
+		"id" : "about",
+		"title" : "About this Page",
+		"type" : "normal",
+		"contents" : [
+			"This page is dedicated for hosting the tutorial notes and example code of the tutorials conducted by Matt YIU Man Tung.",
+			"This page is built by AngularJS, jQuery and Bootstrap."
+		]
+	}
+]

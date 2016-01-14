@@ -1,0 +1,24 @@
+{
+	"course" : {
+		"code" : "CSCI 4140",
+		"title" : "Open-Source Software Project Development",
+		"homepage" : "http://appsrv.cse.cuhk.edu.hk/~csci4140/"
+	},
+	"semester" : "Spring 2016",
+	"tutorials" : [
+		{ "abbr" : "H4", "weekday" : "Thursday", "time" : "11:30am - 12:15pm", "venue" : "ERB 404" },
+		{ "abbr" : "H7", "weekday" : "Thursday", "time" : "2:30 - 3:15pm", "venue" : "ERB 404" },
+		{ "abbr" : "H10", "weekday" : "Thursday", "time" : "5:30 - 6:15pm", "venue" : "ERB 405" }
+	],
+	"feedback" : "https://docs.google.com/forms/d/1vrrVRL7dppymvxWvlnycFlK9XMal_WgeIt9bhMdqVks/viewform",
+	"pageTitle" : "Tutorial Resource Page",
+	"author" : {
+		"name" : "Matt YIU Man Tung",
+		"email" : "mtyiu@cse.cuhk.edu.hk",
+		"homepage" : "http://www.cse.cuhk.edu.hk/~mtyiu/",
+		"office" : "SHB 118",
+		"officeHour" : "Wednesday 3-5 pm"
+	},
+	"created" : "14 January 2015",
+	"lastModified" : "14 January 2015"
+}

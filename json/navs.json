@@ -1,0 +1,26 @@
+[
+	{
+		"name" : "GitHub for example code",
+		"icon" : "github-alt",
+		"href" : "https://github.com/mtyiu/csci4140-spring16",
+		"type" : "normal"
+	},
+	{
+		"name" : "About this Page",
+		"icon" : "newspaper-o",
+		"href" : "about",
+		"type" : "modal"
+	},
+	{
+		"name" : "Course Homepage",
+		"icon" : "university",
+		"href" : "http://appsrv.cse.cuhk.edu.hk/~csci4140/",
+		"type" : "normal"
+	},
+	{
+		"name" : "View My Homepage",
+		"icon" : "user",
+		"href" : "http://www.cse.cuhk.edu.hk/~mtyiu/",
+		"type" : "normal"
+	}
+]

@@ -1,0 +1,48 @@
+[
+	{
+		"week" : 2,
+		"date" : "21 January 2016",
+		"theme" : "HTML, CSS, Git & GitHub",
+		"display" : true,
+		"target" : "",
+		"topics" : [
+			{
+				"title" : "HTML, CSS, Git & GitHub",
+				"downloads" : null,
+				"tags" : [ "HTML", "CSS", "git", "GitHub" ]
+			}
+		]
+	},
+	{
+		"week" : 3,
+		"date" : "28 January 2016",
+		"theme" : "Docker & GitHub Classroom",
+		"display" : false,
+		"target" : "",
+		"topics" : null
+	},
+	{
+		"week" : 4,
+		"date" : "4 February 2016",
+		"theme" : "Assignment 1: Overview, Python & File Upload",
+		"display" : false,
+		"target" : "",
+		"topics" : null
+	},
+	{
+		"week" : 5,
+		"date" : "18 February 2016",
+		"theme" : "Assignment 1: ImageMagick, Database & Debugging",
+		"display" : false,
+		"target" : "",
+		"topics" : null
+	},
+	{
+		"week" : 6,
+		"date" : "25 February 2016",
+		"theme" : "Assignment 1: Cookies, Session Management, Hints & Submission Guideline",
+		"display" : false,
+		"target" : "",
+		"topics" : null
+	}
+]
