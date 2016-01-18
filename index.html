@@ -47,7 +47,7 @@
 							</div>
 							<div id="tut-{{ tutorial.week == '?' ? 'X' : tutorial.week }}" class="panel-collapse collapse-tut collapse{{ tutorial.display ? ' in' : '' }}{{ tutorial.current ? ' current' : '' }}" role="tabpanel" aria-labelledby="tut-heading-{{ tutorial.week }}">
 								<div class="panel-body">
-									<div class="row" ng-class="{ true : 'well-ph', false : '' }[ topic.well !== undefined && topic.well ]" ng-repeat-start="topic in tutorial.topics">
+									<div class="row row-topic" ng-class="{ true : 'well-ph', false : '' }[ topic.well !== undefined && topic.well ]" ng-repeat-start="topic in tutorial.topics">
 										<div class="col-sm-7">
 											<strong class="topic">{{ topic.title }}</strong>
 											<a data-toggle="collapse" href="#tut-{{ tutorial.week }}-outline-{{ $index }}" aria-expanded="false" aria-controls="tut-{{ tutorial.week }}-outline-{{ $index }}" ng-if="topic.outline !== undefined">
@@ -70,9 +70,9 @@
 												<strong>Recommendation:</strong>
 												<a href="{{ r.href }}" target="_blank" ng-repeat-start="r in topic.recommendations">{{ r.name }}</a><span ng-repeat-end ng-if="! $last">, </span>
 											</p>
-											<p class="tags" ng-if="topic.tags.length > 0">
-												<i class="fa fa-tags"></i>
-												<strong>Tags:</strong>
+											<p class="tags">
+												<i class="fa fa-tags" ng-if="topic.tags.length > 0"></i>
+												<strong ng-if="topic.tags.length > 0">Tags:</strong>
 												<span ng-repeat="tag in topic.tags" class="badge tag">{{ tag }}</span>
 											</p>
 											<p class="note text-danger" ng-if="topic.note !== undefined">
@@ -179,15 +179,15 @@
 						</div>
 						<div class="panel-collapse collapse in" id="tutorial-info">
 							<div class="panel-body">
-								<dl class="dl-horizontal">
+								<dl class="dl-horizontal" ng-repeat="tutor in metadata.tutors">
 									<dt>Tutor</dt>
-									<dd><a href="{{ metadata.author.homepage }}" target="_blank">{{ metadata.author.name }}</a></dd>
+									<dd><a href="{{ tutor.homepage }}" target="_blank">{{ tutor.name }}</a></dd>
 									<dt>Email</dt>
-									<dd><a href="mailto:{{ metadata.author.email }}">{{ metadata.author.email }}</a></dd>
+									<dd><a href="mailto:{{ tutor.email }}">{{ tutor.email }}</a></dd>
 									<dt>Office</dt>
-									<dd>{{ metadata.author.office }}</dd>
+									<dd>{{ tutor.office }}</dd>
 									<dt>Office Hour</dt>
-									<dd>{{ metadata.author.officeHour }}</dd>
+									<dd>{{ tutor.officeHour }}</dd>
 								</dl>
 								<table class="table table-striped">
 									<tr>

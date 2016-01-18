@@ -19,6 +19,22 @@
 		"office" : "SHB 118",
 		"officeHour" : "Wednesday 3-5 pm"
 	},
+	"tutors" : [
+		{
+			"name" : "Matt YIU Man Tung",
+			"email" : "mtyiu@cse.cuhk.edu.hk",
+			"homepage" : "http://www.cse.cuhk.edu.hk/~mtyiu/",
+			"office" : "SHB 118",
+			"officeHour" : "Wednesday 3-5 pm"
+		},
+		{
+			"name" : "QIN Chuan",
+			"email" : "cqin@cse.cuhk.edu.hk",
+			"homepage" : "http://www.cse.cuhk.edu.hk/~cqin/",
+			"office" : "SHB 118",
+			"officeHour" : "Thursday 3-5 pm"
+		}
+	],
 	"created" : "14 January 2016",
 	"lastModified" : "14 January 2016"
 }

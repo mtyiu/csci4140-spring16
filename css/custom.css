@@ -122,3 +122,13 @@ dl.dl-horizontal dd {
 .well-ph > .col-sm-7 > .note {
 	color: #aaa;
 }
+
+.panel-body > .row-topic {
+	border-bottom: 1px dashed #eee;
+	margin-bottom: 10px;
+}
+
+.panel-body > .row-topic:last-child {
+	border: 0;
+	margin-bottom: 0;
+}
