@@ -2,7 +2,7 @@
 	"course" : {
 		"code" : "CSCI 4140",
 		"title" : "Open-Source Software Project Development",
-		"homepage" : "http://appsrv.cse.cuhk.edu.hk/~csci4140/"
+		"homepage" : "http://tywong-mole.com/~csci4140/"
 	},
 	"semester" : "Spring 2016",
 	"tutorials" : [

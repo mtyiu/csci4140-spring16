@@ -7,4 +7,4 @@ This course is offered by Department of Computer Science and Engineering, The Ch
 
 Tutorial page: <https://mtyiu.github.io/csci4140-spring16/>
 
-Course home page: <http://appsrv.cse.cuhk.edu.hk/~csci4140/>
+Course home page: <http://tywong-mole.com/~csci4140/>
