@@ -3,15 +3,15 @@
 		"week" : 2,
 		"date" : "21 January 2016",
 		"theme" : "HTML, CSS, Git & GitHub",
-		"display" : true,
-		"target" : "",
+		"display" : false,
 		"topics" : [
 			{
 				"title" : "HTML, CSS, Git & GitHub",
 				"downloads" : [
 					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/1/tuto1.pdf" }
 				],
-				"tags" : [ "HTML", "CSS", "git", "GitHub" ]
+				"tags" : [ "HTML", "CSS", "git", "GitHub" ],
+				"recommendation" : { "Zero lines JS game" : "http://codepen.io/i0z/pen/mFLCw" }
 			},
 			{
 				"title" : "Installing Git on Windows",
@@ -31,10 +31,38 @@
 	{
 		"week" : 3,
 		"date" : "28 January 2016",
-		"theme" : "Docker & GitHub Classroom",
-		"display" : false,
-		"target" : "",
-		"topics" : null
+		"theme" : "Docker & Git Lab",
+		"display" : true,
+		"target" : "Students should be able to set up a development environment for Python CGI programming using Docker.",
+		"topics" : [
+			{
+				"title" : "Docker Lab (Continued)",
+				"downloads" : [
+					{ "type" : "markdown", "name" : "View Notes", "link" : "https://github.com/mtyiu/csci4140-spring16/tree/gh-pages/tutorials/2/docker" },
+					{ "type" : "markdown-alt", "name" : "Assignment 1 Docker Set-up", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/2/docker/Assignment-1-Setup.md" }
+				],
+				"outline" : [
+					"Explore repositories at Docker Hub",
+					"Configure a Docker container",
+					"Link Multiple Docker Containers",
+					"Manage Data in Containers with Data Volume Containers",
+					"Build Docker images with Dockerfile (Optional)"
+				],
+				"tags" : [ "Docker", "MySQL", "Apache", "Data Volume Container" ]
+			},
+			{
+				"title" : "Git Lab",
+				"downloads" : [
+					{ "type" : "markdown", "name" : "View Notes", "link" : "https://github.com/mtyiu/csci4140-spring16/tree/gh-pages/tutorials/2/git" }
+				],
+				"outline" : [
+					"Create your repository",
+					"Work on your repository"
+				],
+				"tags" : [ "Classroom for GitHub", "git" ],
+				"recommendation" : { "Git Draw" : "https://github.com/ben174/git-draw" }
+			}
+		]
 	},
 	{
 		"week" : 4,

@@ -9,7 +9,7 @@ To finish this lab, you need to
 
 Let's get started with our first assignment, **Assignment 0: Give me your student ID!**
 
-## Create your repository
+## Work on your repository
 
 We will use [Classroom for GitHub](https://classroom.github.com/) to collect your assignment! The work flow of using it is a little bit different from the ordinary GitHub work flow. Let's experience it together.
 

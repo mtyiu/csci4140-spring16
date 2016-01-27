@@ -93,6 +93,14 @@
 														<i class="fa fa-file-pdf-o"></i>&nbsp;&nbsp;
 														{{ d.name }} ({{ d.type }})
 													</button>
+													<button class="btn btn-block btn-sm btn-primary" ng-switch-when="markdown" ng-click="download( d.link )">
+														<i class="fa fa-file-text-o"></i>&nbsp;&nbsp;
+														{{ d.name }} ({{ d.type }})
+													</button>
+													<button class="btn btn-block btn-sm btn-default" ng-switch-when="markdown-alt" ng-click="download( d.link )">
+														<i class="fa fa-file-text-o"></i>&nbsp;&nbsp;
+														{{ d.name }}
+													</button>
 													<button class="btn btn-block btn-sm btn-default" ng-switch-when="zip" ng-click="download( d.link )">
 														<i class="fa fa-file-zip-o"></i>&nbsp;&nbsp;
 														{{ d.name }} ({{ d.type }})
@@ -132,8 +140,8 @@
 											</div>
 										</div>
 									</div>
-									<div ng-repeat-end class="divider" ng-if="target !== undefined"></div>
-									<p class="target" ng-if="target !== undefined">
+									<div ng-repeat-end class="divider" ng-if="tutorial.target !== undefined"></div>
+									<p class="target" ng-if="tutorial.target !== undefined">
 										<i class="fa fa-check-circle"></i>
 										 <span ng-bind-html="tutorial.target | raw"></span>
 									</p>
