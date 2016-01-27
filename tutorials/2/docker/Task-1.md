@@ -1,6 +1,6 @@
 # Task 1: Explore repositories at Docker Hub
 
-## Command Lists
+## Command List
 
 - `docker pull`
 

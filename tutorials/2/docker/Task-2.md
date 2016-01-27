@@ -1,6 +1,6 @@
 # Task 2: Configure a Docker Container
 
-## Command Lists
+## Command List
 
 - `docker run` with the flag `-e`
 - `docker exec`

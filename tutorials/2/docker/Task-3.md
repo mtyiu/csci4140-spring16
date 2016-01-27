@@ -1,6 +1,6 @@
 # Task 3: Link Multiple Docker Containers
 
-## Command Lists
+## Command List
 
 - `docker run` with the `--link` flag
 

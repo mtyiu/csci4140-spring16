@@ -1,6 +1,6 @@
 # Task 4: Manage Data in Containers with Data Volume Containers
 
-## Command Lists
+## Command List
 
 - `docker create`
 - `docker run` with the flag `--volumes-from`

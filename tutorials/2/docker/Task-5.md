@@ -1,6 +1,6 @@
 # Task 5: Build Docker images with `Dockerfile` *(Optional)*
 
-## Command Lists
+## Command List
 
 - `docker build`
 
