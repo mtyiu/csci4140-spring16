@@ -39,7 +39,8 @@
 				"title" : "Docker Lab (Continued)",
 				"downloads" : [
 					{ "type" : "markdown", "name" : "View Notes", "link" : "https://github.com/mtyiu/csci4140-spring16/tree/gh-pages/tutorials/2/docker" },
-					{ "type" : "markdown-alt", "name" : "Assignment 1 Docker Set-up", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/2/docker/Assignment-1-Setup.md" }
+					{ "type" : "markdown-alt", "name" : "Assignment 1 Docker Set-up", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/2/docker/Assignment-1-Setup.md" },
+					{ "type" : "youtube", "name" : "Tutorial Recording", "link" : "https://www.youtube.com/watch?v=n36HdNuZAFU" }
 				],
 				"outline" : [
 					"Explore repositories at Docker Hub",
