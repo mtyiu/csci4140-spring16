@@ -32,7 +32,7 @@
 		"week" : 3,
 		"date" : "28 January 2016",
 		"theme" : "Docker & Git Lab",
-		"display" : true,
+		"display" : false,
 		"target" : "Students should be able to set up a development environment for Python CGI programming using Docker.",
 		"topics" : [
 			{
@@ -69,9 +69,17 @@
 		"week" : 4,
 		"date" : "4 February 2016",
 		"theme" : "Assignment 1: Overview, Python & File Upload",
-		"display" : false,
-		"target" : "",
-		"topics" : null
+		"display" : true,
+		"topics" : [
+			{
+				"title" : "Assignment 1: Overview, Python & File Upload",
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/3/tuto3.pdf" },
+					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/3/example_code" },
+					{ "type" : "zip", "name" : "Example Code", "link" : "tutorials/3/example_code.zip" }
+				]
+			}
+		]
 	},
 	{
 		"week" : 5,
