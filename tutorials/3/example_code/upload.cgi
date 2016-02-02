@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import os
 import cgi
@@ -13,8 +13,11 @@ form = cgi.FieldStorage()
 
 print '<html><body>'
 
-saveDir = os.getenv('OPENSHIFT_DATA_DIR')
-readDir = 'data'
+saveDir = '/var/www/html/data' # Full path or relative path
+readDir = '/data'
+
+if not os.path.exists(saveDir):
+    os.makedirs(saveDir)
 
 if ('pic' not in form):
     print "No file uploaded. "
@@ -30,6 +33,6 @@ else:
 
     open(savePath, 'wb').write(fileitem.file.read())
 
-    print 'File uploaded. <br /><img src="%s" />'%(os.path.join('data', fn + ext))
+    print 'File uploaded. <br /><img src="%s" />'%(os.path.join(readDir, fn + ext))
 
 print '</body></html>'
