@@ -69,7 +69,7 @@
 		"week" : 4,
 		"date" : "4 February 2016",
 		"theme" : "Assignment 1: Overview, Python & File Upload",
-		"display" : true,
+		"display" : false,
 		"topics" : [
 			{
 				"title" : "Assignment 1: Overview, Python & File Upload",
@@ -85,9 +85,17 @@
 		"week" : 5,
 		"date" : "18 February 2016",
 		"theme" : "Assignment 1: ImageMagick, Database & Debugging",
-		"display" : false,
-		"target" : "",
-		"topics" : null
+		"display" : true,
+		"topics" : [
+			{
+				"title" : "Assignment 1: ImageMagick, Database & Debugging",
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/4/tuto4.pdf" },
+					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/4/example_code" },
+					{ "type" : "zip", "name" : "Example Code", "link" : "tutorials/4/example_code.zip" }
+				]
+			}
+		]
 	},
 	{
 		"week" : 6,
