@@ -85,7 +85,7 @@
 		"week" : 5,
 		"date" : "18 February 2016",
 		"theme" : "Assignment 1: ImageMagick, Database & Debugging",
-		"display" : true,
+		"display" : false,
 		"topics" : [
 			{
 				"title" : "Assignment 1: ImageMagick, Database & Debugging",
@@ -100,9 +100,16 @@
 	{
 		"week" : 6,
 		"date" : "25 February 2016",
-		"theme" : "Assignment 1: Cookies, Session Management, Hints & Submission Guideline",
-		"display" : false,
-		"target" : "",
-		"topics" : null
+		"theme" : "Assignment 1: Cookies, Session Management & Hints",
+		"display" : true,
+		"topics" : [
+			{
+				"title" : "Assignment 1: Cookies, Session Management & Hints",
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/5/tuto5.pdf" },
+					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/5/example_code" }
+				]
+			}
+		]
 	}
 ]
