@@ -19,6 +19,8 @@ $( function() {
 						'</tr>'
 					)
 				}
+				if ( html == '' )
+					html = '<tr><td colspan="4"><p class="text-center lead">No records</p></td></tr>'
 
 				$( '#list' ).html( html )
 
