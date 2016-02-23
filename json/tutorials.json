@@ -85,7 +85,7 @@
 		"week" : 5,
 		"date" : "18 February 2016",
 		"theme" : "Assignment 1: ImageMagick, Database & Debugging",
-		"display" : true,
+		"display" : false,
 		"topics" : [
 			{
 				"title" : "Assignment 1: ImageMagick, Database & Debugging",
@@ -100,9 +100,72 @@
 	{
 		"week" : 6,
 		"date" : "25 February 2016",
-		"theme" : "Assignment 1: Cookies, Session Management, Hints & Submission Guideline",
+		"theme" : "Assignment 1: Cookies, Session Management & Hints",
+		"display" : true,
+		"topics" : [
+			{
+				"title" : "Assignment 1: Cookies, Session Management & Hints",
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/5/tuto5.pdf" },
+					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/5/example_code" }
+				]
+			}
+		]
+	},
+	{
+		"week" : 7,
+		"date" : "3 March 2016",
+		"theme" : "Assignment 2: UI Design",
 		"display" : false,
-		"target" : "",
+		"topics" : null
+	},
+	{
+		"week" : 8,
+		"date" : "10 March 2016",
+		"theme" : "Assignment 2: Front-end development",
+		"display" : false,
+		"topics" : null
+	},
+	{
+		"week" : 9,
+		"date" : "17 March 2016",
+		"theme" : "Assignment 2: Front-end development - Backbone.js",
+		"display" : false,
+		"topics" : null
+	},
+	{
+		"week" : 10,
+		"date" : "24 March 2016",
+		"theme" : "Assignment 2: Back-end development - Node.js",
+		"display" : false,
+		"topics" : null
+	},
+	{
+		"week" : 11,
+		"date" : "31 March 2016",
+		"theme" : "Assignment 2: Back-end development - Express.js",
+		"display" : false,
+		"topics" : null
+	},
+	{
+		"week" : 12,
+		"date" : "7 April 2016",
+		"theme" : "Assignment 2: WebSocket, Socket.IO, RESTful APIs",
+		"display" : false,
+		"topics" : null
+	},
+	{
+		"week" : 13,
+		"date" : "14 April 2016",
+		"theme" : "Assignment 2: RESTful APIs (Continued), Remote Debugging",
+		"display" : false,
+		"topics" : null
+	},
+	{
+		"week" : 14,
+		"date" : "21 April 2016",
+		"theme" : "Bonus Materials (TBD)",
+		"display" : false,
 		"topics" : null
 	}
 ]
