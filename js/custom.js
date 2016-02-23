@@ -18,6 +18,4 @@ $( function() {
 			ga( 'send', 'event', 'download', $( this ).attr( 'href' ) )
 		}
 	} )
-
-	$.material.init()
 } )
