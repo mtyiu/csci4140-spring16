@@ -1,6 +1,7 @@
 $( function() {
 	var timeout = null
 	var account = null
+	var latestOnly = true
 
 	var query = function() {
 		$.ajax( {
@@ -9,9 +10,15 @@ $( function() {
 			dataType : 'jsonp',
 			success : function( data ) {
 				var html = ''
+				var sid = []
 				for ( var d in data ) {
+					html += '<tr'
+					if ( sid.indexOf( data[ d ].s ) !== -1 )
+						html += ' class="not-latest"'
+					else
+						sid.push( data[ d ].s )
 					html += (
-						'<tr>' +
+						'>' +
 						'<td>' + data[ d ].i + '</td>' +
 						'<td>' + data[ d ].t + '</td>' +
 						'<td>' + data[ d ].s + '</td>' +
@@ -23,6 +30,8 @@ $( function() {
 					html = '<tr><td colspan="4"><p class="text-center lead">No records</p></td></tr>'
 
 				$( '#list' ).html( html )
+
+				$( '#show-latest' ).change()
 
 				timeout = setTimeout( query, 2000 )
 			}
@@ -38,4 +47,12 @@ $( function() {
 	}
 	$( '#filter-form' ).submit( filter )
 	$( '#account' ).blur( filter )
+
+	$( '#show-latest' ).change( function() {
+		latestOnly = this.checked
+		if ( latestOnly )
+			$( '.not-latest' ).hide()
+		else
+			$( '.not-latest' ).show()
+	} )
 } )
