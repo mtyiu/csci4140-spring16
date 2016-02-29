@@ -1,0 +1,8 @@
+@media screen and (min-width: %dpx) and (max-width: %dpx) {
+	body {
+		background-color: %s;
+	}
+	#box-%d {
+		display: block !important;
+	}
+}

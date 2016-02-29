@@ -1,0 +1,28 @@
+.sidebar {
+	display: none;
+}
+
+.contents {
+	display: inline;
+	float: left;
+}
+
+@media screen and (min-width: 600px) {
+	.sidebar {
+		display: inline;
+		float: left;
+		border: 2px dashed #000;
+		width: 100%;
+		background-color: #333;
+		color: #fff;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.sidebar {
+		display: block;
+		width: 300px;
+		background-color: #eee;
+		color: #333;
+	}
+}

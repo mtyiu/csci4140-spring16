@@ -7,5 +7,60 @@
 			"This page is dedicated for hosting the tutorial notes and example code of the tutorials conducted by Matt YIU Man Tung.",
 			"This page is built by AngularJS, jQuery and Bootstrap."
 		]
+	},
+	{
+		"id" : "tut6-demo",
+		"title" : "Responsive Web Design with Bootstrap 3",
+		"type" : "demo",
+		"contents" : [
+			{
+				"category" : "Font Awesome",
+				"title" : "Example",
+				"link" : "tutorials/6/example_code/css/fa.html",
+				"source" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code/css/fa.html"
+			},
+			{
+				"category" : "CSS Media Queries",
+				"title" : "Sidebar",
+				"link" : "tutorials/6/example_code/media-query/sidebar.html",
+				"source" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code/media-query/"
+			},
+			{
+				"category" : "CSS Media Queries",
+				"title" : "Changing background color",
+				"link" : "tutorials/6/example_code/media-query/demo.html",
+				"source" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code/media-query/"
+			},
+			{
+				"category" : "Bootstrap",
+				"title" : "container VS. container-fluid",
+				"link" : "tutorials/6/example_code/bootstrap/container.html",
+				"source" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code/bootstrap/container.html"
+			},
+			{
+				"category" : "Bootstrap",
+				"title" : "Grid system (Basic)",
+				"link" : "tutorials/6/example_code/bootstrap/grid.html",
+				"source" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code/bootstrap/grid.html"
+			},
+			{
+				"category" : "Bootstrap",
+				"title" : "Grid system (Advanced)",
+				"link" : "tutorials/6/example_code/bootstrap/grid-misc.html",
+				"source" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code/bootstrap/grid-misc.html"
+			},
+			{
+				"category" : "Bootstrap",
+				"title" : "ERGWAVE Login Portal (Original)",
+				"link" : "tutorials/6/example_code/ergwave/login.html",
+				"source" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code/ergwave"
+			},
+			{
+				"category" : "Bootstrap",
+				"title" : "ERGWAVE Login Portal (Responsive)",
+				"link" : "tutorials/6/example_code/ergwave/login_responsive.html",
+				"source" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code/ergwave"
+			}
+		]
 	}
 ]

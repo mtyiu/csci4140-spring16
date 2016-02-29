@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Portal Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="styles_responsive.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<style type="text/css">
+body {
+	background: #000 url('ergwave_bg.jpg') top left no-repeat;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+</style>
+</head>
+
+<body onload="document.getElementById('user').focus();">
+<div class="container pull-left">
+	<div class="row">
+		<div id="logins" class="col-sm-6">
+			<div id="registered">
+				<h1 id="registeredhdr" class="swap"><span>REGISTERED USER</span></h1>
+				<form action="login" id="regform" method="post" autocomplete="off" title="Form used by registered users to login">
+					<div id="usernamebox">
+						<label for="user" accesskey="u">USERNAME</label>
+						<input type="text" name="user" id="user" size="25" class="text" accesskey="u" />
+					</div>
+				
+					<div id="passwordbox">
+						<label for="password" accesskey="p">PASSWORD</label>
+						<input id="password" name="password" type="password" size="25" class="text" accesskey="p" />
+					</div>
+
+					<div id="fqdnbox" style="">
+						<label for="fqdn" accesskey="f">FQDN</label>
+						<select name="fqdn">
+							<option value=""></option>
+							<option value="CSE">CSE</option>
+							<option value="EE">EE</option>
+							<option value="IE">IE</option>
+							<option value="MAE">MAE</option>
+							<option value="SE">SE</option>
+							<option value="Log">Log</option>
+							<option value="ENO">ENO</option>
+							<option value="ERG">ERG</option>
+						</select>
+					</div>
+
+					<input type="submit" name="Login" value="Log In" class="button" />
+					<p>
+						Logging in as a registered user indicates you have read and accepted the <a href="javascript:void(0)">Acceptable Use Policy</a>.
+					</p>
+				</form>
+			</div>
+		</div>
+		
+		<div class="col-sm-6">
+			<div id="instructionstext">
+				<ul>
+					<li>Enter your UNIX username and password and select your dept from the FQDN drop-down box.</li>
+					<li>We are recommend to enable the WEP to encrypt your WLAN session, switch to SSID <font color='yellow'>ERGWAVE3</font> and enable the WEP. For the WEP key,check the webpage http://www.erg.cuhk.edu.hk/wlan/ or click the link after login.</li>
+					<li>For more info and other encryption method available, you can go to <a href='http://info.wlan.erg.cuhk.edu.hk' target=_>http://info.wlan.erg.cuhk.edu.hk</a> in the wireless network. To acceee the info page in wired network, use the URL http://www.erg.cuhk.edu.hk/wlan/ instead.
+					<li><a href="#"><font color='yellow'>Copyright Infringement - Important Notice</font></a>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

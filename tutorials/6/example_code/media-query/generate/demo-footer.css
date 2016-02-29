@@ -1,0 +1,43 @@
+@media screen and (min-width: 1200px) {
+	body {
+		background-color: #FF0000;
+	}
+	#box-large {
+		display: block !important;
+	}
+}
+
+@media screen and (max-width: 419px) {
+	body {
+		background-color: #FF0014;
+	}
+	#box-small {
+		display: block !important;
+	}
+}
+
+body {
+	margin: 0;
+}
+
+.box:before {
+	content: 'Width: ';
+}
+
+.box:after {
+	content: ' px';
+}
+
+.box {
+	display: none;
+	font-size: 25pt;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Consolas', monospace;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	top: 45%;
+	margin-top: 25px;
+}

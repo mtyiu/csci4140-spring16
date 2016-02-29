@@ -1,0 +1,80 @@
+@media screen and (min-width: 992px) {
+	.container {
+		max-width: 864px;
+		padding-top: 155px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.container {
+		max-width: 864px;
+		padding-top: 80px;
+	}
+}
+
+form {
+	padding: 0;
+	margin: 10px;
+}
+
+a:link, a:visited {
+	color: #000;
+	text-decoration: underline;
+}
+
+#instructionstext {
+	background-color: rgba( 221, 221, 221, 0.5 );
+	z-index: 100;
+	color: #000;
+	padding: 6px;
+	border: 1px solid #fff;
+}
+
+#registered {
+	border: 1px solid #fff;
+	color: #000;
+	font-weight: bold;
+	padding: 0;
+	background-color: #ccc;
+	margin-bottom: 15px;
+}
+
+#passwordbox {
+	margin-top: 5px;
+}
+
+.swap span, .swap u, .swap em {
+	display: none;
+}
+
+h1.swap, h2.swap, h3.swap, h4.swap, h5.swap {
+	background: top left no-repeat;
+	padding: 0;
+	margin: 0;
+	height: 25px;
+}
+
+h1#registeredhdr { background-image: url(registereduser.gif); }
+
+#logins input {
+	background-color: #eee;
+	color: #000;
+}
+
+#logins input.text {
+	background-color: #eee;
+	border: 1px solid #333;
+	padding: 2px;
+	width: 95%;
+}
+
+#logins input.text:focus {
+	padding: 2px;
+	background-color: #fff;
+	border: 1px solid #ee7d00;
+	width: 95%;
+}
+
+input.button {
+	margin-top: 10px;
+	border: 1px outset #eee;
+}

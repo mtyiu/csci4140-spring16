@@ -101,7 +101,7 @@
 		"week" : 6,
 		"date" : "25 February 2016",
 		"theme" : "Assignment 1: Cookies, Session Management & Hints",
-		"display" : true,
+		"display" : false,
 		"topics" : [
 			{
 				"title" : "Assignment 1: Cookies, Session Management & Hints",
@@ -116,8 +116,43 @@
 		"week" : 7,
 		"date" : "3 March 2016",
 		"theme" : "Assignment 2: UI Design",
-		"display" : false,
-		"topics" : null
+		"display" : true,
+		"topics" : [
+			{
+				"title" : "Responsive Web Design with Bootstrap 3",
+				"outline" : [
+					"Mobile web development",
+					"Font Awesome",
+					"Responsive web design (RWD)",
+					"CSS media queries",
+					"Bootstrap 3",
+					"jQuery"
+				],
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/6/bootstrap.pdf" },
+					{ "type" : "zip", "name" : "Example Code", "link" : "tutorials/6/example_code.zip" },
+					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code" },
+					{ "type" : "demo", "name" : "Demo Pages", "link" : "#tut6-demo" }
+				],
+				"tags" : [ "mobile", "layout", "css", "font awesome", "responsive web design", "media queries", "bootstrap", "jquery" ]
+			},
+			{
+				"title" : "Installing Node.js and Express on Windows",
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/6/install-nodejs-on-windows.pdf" },
+					{ "type" : "file", "name" : "hello.js", "link" : "tutorials/6/example_code/hello.js" },
+					{ "type" : "github", "name" : "hello.js", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code/hello.js" }
+				]
+			},
+			{
+				"title" : "Installing Node.js and Express on Linux or Mac",
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/6/install-nodejs-on-linux-mac.pdf" },
+					{ "type" : "file", "name" : "hello.js", "link" : "tutorials/6/example_code/hello.js" },
+					{ "type" : "github", "name" : "hello.js", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code/hello.js" }
+				]
+			}
+		]
 	},
 	{
 		"week" : 8,
