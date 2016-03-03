@@ -39,8 +39,7 @@
 				"title" : "Docker Lab (Continued)",
 				"downloads" : [
 					{ "type" : "markdown", "name" : "View Notes", "link" : "https://github.com/mtyiu/csci4140-spring16/tree/gh-pages/tutorials/2/docker" },
-					{ "type" : "markdown-alt", "name" : "Assignment 1 Docker Set-up", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/2/docker/Assignment-1-Setup.md" },
-					{ "type" : "youtube", "name" : "Tutorial Recording", "link" : "https://www.youtube.com/watch?v=n36HdNuZAFU" }
+					{ "type" : "markdown-alt", "name" : "Assignment 1 Docker Set-up", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/2/docker/Assignment-1-Setup.md" }
 				],
 				"outline" : [
 					"Explore repositories at Docker Hub",
@@ -54,7 +53,8 @@
 			{
 				"title" : "Git Lab",
 				"downloads" : [
-					{ "type" : "markdown", "name" : "View Notes", "link" : "https://github.com/mtyiu/csci4140-spring16/tree/gh-pages/tutorials/2/git" }
+					{ "type" : "markdown", "name" : "View Notes", "link" : "https://github.com/mtyiu/csci4140-spring16/tree/gh-pages/tutorials/2/git" },
+					{ "type" : "youtube", "name" : "Demo Video", "link" : "https://www.youtube.com/watch?v=d4DTGIZo6QA" }
 				],
 				"outline" : [
 					"Create your repository",
@@ -63,7 +63,11 @@
 				"tags" : [ "Classroom for GitHub", "git" ],
 				"recommendation" : { "Git Draw" : "https://github.com/ben174/git-draw" }
 			}
-		]
+		],
+		"recordings" : {
+			"cantonese" : null,
+			"english" : "https://www.youtube.com/watch?v=n36HdNuZAFU"
+		}
 	},
 	{
 		"week" : 4,
@@ -152,7 +156,11 @@
 					{ "type" : "github", "name" : "hello.js", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code/hello.js" }
 				]
 			}
-		]
+		],
+		"recordings" : {
+			"cantonese" : "https://www.youtube.com/watch?v=_NVGmJ2Rwqs",
+			"english" : "https://www.youtube.com/watch?v=h-TfYftu0Io"
+		}
 	},
 	{
 		"week" : 8,

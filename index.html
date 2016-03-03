@@ -149,6 +149,22 @@
 										 <span ng-bind-html="tutorial.target | raw"></span>
 									</p>
 								</div>
+								<div class="panel-footer" ng-if="tutorial.recordings !== undefined">
+									<div class="row">
+										<div class="col-sm-6" ng-if="tutorial.recordings.cantonese !== null">
+											<a href="{{ tutorial.recordings.cantonese }}" class="btn btn-block btn-default" target="_blank">
+												<i class="fa fa-youtube"></i>
+												Recording (Cantonese)
+											</a>
+										</div>
+										<div class="col-sm-6" ng-if="tutorial.recordings.english !== null">
+											<a href="{{ tutorial.recordings.english }}" class="btn btn-block btn-default" target="_blank">
+												<i class="fa fa-youtube"></i>
+												Recording (English)
+											</a>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
