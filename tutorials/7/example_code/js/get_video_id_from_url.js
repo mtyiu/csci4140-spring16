@@ -5,6 +5,6 @@ function getVideoIDFromURL( url ) {
 	if ( match && match[ 2 ].length == 11 ){
 		return match[ 2 ];
 	} else {
-		return null;
+		return url;
 	}
 }
