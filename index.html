@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet">
 		<link href="css/font-awesome.min.css" rel="stylesheet">
 		<link href="css/loading-bar.min.css" rel="stylesheet">
 		<link href="css/custom.css" rel="stylesheet">
@@ -29,6 +29,12 @@
 					{{ metadata.pageTitle }}
 				</h3>
 				<hr />
+				<div class="alert alert-warning">
+					<i class="fa fa-bullhorn"></i>
+					<strong>Announcement: </strong>
+					The lecture at 29 March 2016 (i.e., Tuesday, 12:30 - 2:15pm) will be substituted by tutorial, covering Node.js and Express.
+					The tutorials at Week #10 (24 March 2016) and Week #11 (31 March 2016) are cancelled due to Project Phase 2 meetings.
+				</div>
 			</header>
 
 			<div class="row">
@@ -37,7 +43,7 @@
 						<div class="panel panel-{{ tutorial.current ? 'primary' : 'default' }}" ng-repeat="tutorial in tutorials">
 							<div class="panel-heading" role="tab" id="#tut-heading-{{ tutorial.week }}">
 								<h4 class="panel-title">
-									<a data-toggle="collapse" href="#tut-{{ tutorial.week == '?' ? 'X' : tutorial.week }}" aria-expanded="true" aria-controls="tut-{{ tutorial.week == '?' ? 'X' : tutorial.week }}">
+									<a data-toggle="collapse" href="#tut-{{ tutorial.week == '?' || tutorial.topics === undefined ? 'X' : tutorial.week }}" aria-expanded="true" aria-controls="tut-{{ tutorial.week == '?' || tutorial.topics === undefined ? 'X' : tutorial.week }}">
 										<span class="week">Week #{{ tutorial.week }}</span><span class="date">({{ tutorial.date }}):</span><span class="theme-title">{{ tutorial.theme }}</span>
 										<span class="pull-right">
 											<i class="fa fa-bars"></i>
@@ -45,7 +51,7 @@
 									</a>
 								</h4>
 							</div>
-							<div id="tut-{{ tutorial.week == '?' ? 'X' : tutorial.week }}" class="panel-collapse collapse-tut collapse{{ tutorial.display ? ' in' : '' }}{{ tutorial.current ? ' current' : '' }}" role="tabpanel" aria-labelledby="tut-heading-{{ tutorial.week }}">
+							<div id="tut-{{ tutorial.week == '?' ? 'X' : tutorial.week }}" class="panel-collapse collapse-tut collapse{{ tutorial.display ? ' in' : '' }}{{ tutorial.current ? ' current' : '' }}" role="tabpanel" aria-labelledby="tut-heading-{{ tutorial.week }}" ng-if="tutorial.topics !== undefined">
 								<div class="panel-body">
 									<div class="row row-topic" ng-show="tutorial.topics === null">
 										<p class="lead text-center" style="margin: 0;">Not ready</p>
@@ -143,7 +149,7 @@
 											</div>
 										</div>
 									</div>
-									<div ng-repeat-end class="divider" ng-if="tutorial.target !== undefined"></div>
+									<div ng-repeat-end></div>
 									<p class="target" ng-if="tutorial.target !== undefined">
 										<i class="fa fa-check-circle"></i>
 										 <span ng-bind-html="tutorial.target | raw"></span>
@@ -308,7 +314,7 @@
 									{{ page.title }}
 								</div>
 								<div class="col-sm-3">
-									<button class="btn btn-block btn-sm btn-primary" ng-click="download( page.link )">
+									<button class="btn btn-block btn-sm btn-primary" ng-click="download( page.link )" ng-if="page.link !== undefined">
 										<i class="fa fa-eye"></i>&nbsp;&nbsp;
 										View Page
 									</button>

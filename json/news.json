@@ -1,13 +1,14 @@
 [
+	{ "date" : "Mar 9", "content" : "The tutorial notes for Week #8 are uploaded." },
 	{ "date" : "Mar 3", "content" : "The tutorial recordings for Week #7 are uploaded." },
-	{ "date" : "Feb 29", "content" : "The tutorial notes for Week #7 is uploaded." },
+	{ "date" : "Feb 29", "content" : "The tutorial notes for Week #7 are uploaded." },
 	{ "date" : "Feb 24", "content" : "Assignment submission status page is updated: added a checkbox that allows users to display latest submissions only." },
 	{ "date" : "Feb 23", "content" : "Assignment submission status page is added." },
-	{ "date" : "Feb 22", "content" : "The tutorial notes for Week #6 is uploaded." },
-	{ "date" : "Feb 15", "content" : "The tutorial notes for Week #5 is uploaded." },
-	{ "date" : "Feb 2", "content" : "The tutorial notes for Week #4 is uploaded." },
+	{ "date" : "Feb 22", "content" : "The tutorial notes for Week #6 are uploaded." },
+	{ "date" : "Feb 15", "content" : "The tutorial notes for Week #5 are uploaded." },
+	{ "date" : "Feb 2", "content" : "The tutorial notes for Week #4 are uploaded." },
 	{ "date" : "Jan 28", "content" : "The recording of today's tutorial is uploaded." },
-	{ "date" : "Jan 28", "content" : "The tutorial notes for Week #3 is uploaded." },
+	{ "date" : "Jan 28", "content" : "The tutorial notes for Week #3 are uploaded." },
 	{ "date" : "Jan 21", "content" : "Fix typo in the slides (P.6)." },
-	{ "date" : "Jan 18", "content" : "The tutorial slides for this week is uploaded." }
+	{ "date" : "Jan 18", "content" : "The tutorial slides for this week are uploaded." }
 ]

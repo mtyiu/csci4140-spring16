@@ -120,7 +120,7 @@
 		"week" : 7,
 		"date" : "3 March 2016",
 		"theme" : "Assignment 2: UI Design",
-		"display" : true,
+		"display" : false,
 		"topics" : [
 			{
 				"title" : "Responsive Web Design with Bootstrap 3",
@@ -166,8 +166,60 @@
 		"week" : 8,
 		"date" : "10 March 2016",
 		"theme" : "Assignment 2: Front-end development",
-		"display" : false,
-		"topics" : null
+		"display" : true,
+		"target" : "Students can start implementing the UI, player and control logic of Assignment 2 locally",
+		"topics" : [
+			{
+				"title" : "Introduction to npm",
+				"outline" : [
+					"What is npm?",
+					"Installing and updating npm",
+					"(Un)Installing packages [locally|globally] with npm",
+					"Rebuilding an application with npm install",
+					"node_modules and .gitignore",
+					"What is package.json?",
+					"Creating package.json with npm init",
+					"Updating package.json",
+					"Running scripts with package.json",
+					"References"
+				],
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/7/npm.pdf" }
+				]
+			},
+			{
+				"title" : "Assignment 2 Overview (Client Side) & Hints on Front-end Development",
+				"outline" : [
+					"Demonstration",
+					"Client side: Layout design, QR code display, Playlist management & YouTube player control"
+				],
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/7/asgn2-overview-client.pdf" },
+					{ "type" : "zip", "name" : "Example Code", "link" : "tutorials/7/example_code.zip" },
+					{ "type" : "demo", "name" : "Demo Page", "link" : "#tut7-demo" },
+					{ "type" : "download", "name" : "Screenshot", "link" : "#tut7-screenshot" }
+				],
+				"tags" : [ "QR code", "DOM scripting", "YouTube Data API", "HTML5", "client" ],
+				"recommendation" : { "What is responsive web design?" : "tutorials/7/recommendation/responsive-ui.jpg" }
+			},
+			{
+				"title" : "YouTube IFrame Player API",
+				"outline" : [
+					"Overview",
+					"Requirements",
+					"Getting started",
+					"Operations: Play, Pause, Stop, Mute, Unmute, Fast Forward, Rewind, Next Video, Previous Video",
+					"The onStateChange event",
+					"Destroying the player",
+					"Reference"
+				],
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/7/youtube-iframe-api.pdf" },
+					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/csci4140-spring16/tree/gh-pages/tutorials/7/example_code/youtube-iframe-api" },
+					{ "type" : "html", "name" : "Demo Page", "link" : "tutorials/7/example_code/youtube-iframe-api/index.html" }
+				]
+			}
+		]
 	},
 	{
 		"week" : 9,
@@ -178,17 +230,22 @@
 	},
 	{
 		"week" : 10,
-		"date" : "24 March 2016",
-		"theme" : "Assignment 2: Back-end development - Node.js",
+		"date" : "24 March 2016 (Cancelled)",
+		"theme" : "(Changed to Project Phase #2 Meeting)",
+		"display" : false
+	},
+	{
+		"week" : 11,
+		"date" : "29 March 2016 (Lecture Time)",
+		"theme" : "Assignment 2: Back-end development - Node.js & Express",
 		"display" : false,
 		"topics" : null
 	},
 	{
 		"week" : 11,
-		"date" : "31 March 2016",
-		"theme" : "Assignment 2: Back-end development - Express.js",
-		"display" : false,
-		"topics" : null
+		"date" : "31 March 2016 (Cancelled)",
+		"theme" : "(Changed to Project Phase #2 Meeting)",
+		"display" : false
 	},
 	{
 		"week" : 12,

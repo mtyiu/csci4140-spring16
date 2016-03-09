@@ -62,5 +62,48 @@
 				"source" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/6/example_code/ergwave"
 			}
 		]
+	},
+	{
+		"id" : "tut7-demo",
+		"title" : "Hints on Front-end Development",
+		"type" : "demo",
+		"contents" : [
+			{
+				"category" : "QR Code",
+				"title" : "Example",
+				"link" : "tutorials/7/example_code/qr_code/qr_code.html",
+				"source" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/7/example_code/qr_code/qr_code.html"
+			},
+			{
+				"category" : "Retrieving video ID from YouTube URL",
+				"title" : "getVideoIDFromURL()",
+				"source" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/7/example_code/js/get_video_id_from_url.js"
+			},
+			{
+				"category" : "YouTube Data API",
+				"title" : "Example",
+				"link" : "tutorials/7/example_code/youtube-data-api/index.html",
+				"source" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/7/example_code/youtube-data-api/index.html"
+			}
+		]
+	},
+	{
+		"id" : "tut7-screenshot",
+		"title" : "Screenshot of Assignment 2",
+		"type" : "download",
+		"contents" : [
+			{
+				"title" : "Desktop View",
+				"link" : "tutorials/7/downloads/asgn2-desktop.png"
+			},
+			{
+				"title" : "Tablet View",
+				"link" : "tutorials/7/downloads/asgn2-tablet.png"
+			},
+			{
+				"title" : "Phone View",
+				"link" : "tutorials/7/downloads/asgn2-phone.png"
+			}
+		]
 	}
 ]
