@@ -219,7 +219,11 @@
 					{ "type" : "html", "name" : "Demo Page", "link" : "tutorials/7/example_code/youtube-iframe-api/index.html" }
 				]
 			}
-		]
+		],
+		"recordings" : {
+			"cantonese" : "https://www.youtube.com/watch?v=Ypqz_z3y4ws",
+			"english" : "https://www.youtube.com/watch?v=AjN2v62ErZA"
+		}
 	},
 	{
 		"week" : 9,
