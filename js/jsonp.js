@@ -13,10 +13,12 @@ $( function() {
 				var sid = []
 				for ( var d in data ) {
 					html += '<tr'
-					if ( sid.indexOf( data[ d ].s ) !== -1 )
+					if ( sid.indexOf( data[ d ].s ) !== -1 ) {
 						html += ' class="not-latest"'
-					else
+					} else {
+						html += ' class="latest"'
 						sid.push( data[ d ].s )
+					}
 					html += (
 						'>' +
 						'<td>' + data[ d ].i + '</td>' +
@@ -32,6 +34,9 @@ $( function() {
 				$( '#list' ).html( html )
 
 				$( '#show-latest' ).change()
+
+				$( '#submission' ).html( $( '.latest' ).length )
+				$( '#percent' ).html( ( $( '.latest' ).length / 63 * 100 ).toFixed( 1 ) )
 
 				timeout = setTimeout( query, 2000 )
 			}
