@@ -1,0 +1,17 @@
+{
+  "name": "tut8-example_code",
+  "version": "1.0.0",
+  "description": "Example code of Tutorial 8 - Learning the basics of Node.js",
+  "main": "server.js",
+  "dependencies": {
+    "bl": "^0.9.5",
+    "through2-map": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Matt YIU Man Tung",
+  "license": "MIT"
+}

@@ -166,7 +166,7 @@
 		"week" : 8,
 		"date" : "10 March 2016",
 		"theme" : "Assignment 2: Front-end development",
-		"display" : true,
+		"display" : false,
 		"target" : "Students can start implementing the UI, player and control logic of Assignment 2 locally",
 		"topics" : [
 			{
@@ -229,11 +229,11 @@
 		"week" : 9,
 		"date" : "17 March 2016",
 		"theme" : "Assignment 2: Back-end development & Node.js",
-		"display" : false,
+		"display" : true,
 		"topics" : [
 			{
-			"title" : "YouTube IFrame Player API",
-			"note" : "Continued...Please find the download link in Week #8."
+				"title" : "YouTube IFrame Player API",
+				"note" : "Continued...Please find the download link in Week #8."
 			},
 			{
 				"title" : "Assignment 2 Overview (Server Side)",
@@ -241,7 +241,9 @@
 					"Work flow",
 					"Server side: Routing, Message forwarding"
 				],
-				"downloads" : null,
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/8/asgn2-overview-server.pdf" }
+				],
 				"tags" : [ "server", "work flow", "routing", "message forwarding" ]
 			},
 			{
@@ -250,7 +252,12 @@
 					"What is Node.js?",
 					"Learning the basics of Node.js: Non-blocking I/O, HTTP"
 				],
-				"downloads" : null,
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes (wo/ Solution)", "link" : "tutorials/8/nodejs-wo-soln.pdf" },
+					{ "type" : "pdf", "name" : "Download Notes (w/ Solution)", "link" : "tutorials/8/nodejs.pdf" },
+					{ "type" : "zip", "name" : "Example Code", "link" : "tutorials/8/example_code.zip" },
+					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/csci4140-spring16/tree/gh-pages/tutorials/8/example_code" }
+				],
 				"tags" : [ "events", "asynchronous I/O", "callback", "module", "npm", "closure" ],
 				"recommendation" : { "nodeschool.io" : "http://nodeschool.io/", "Are all JavaScript callbacks asynchronous?" : "http://stackoverflow.com/questions/19083357/are-all-javascript-callbacks-asynchronous-if-not-how-do-i-know-which-are", "Control flow in Node.js" : "http://book.mixu.net/node/ch7.html" }
 			}
