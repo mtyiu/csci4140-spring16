@@ -261,7 +261,11 @@
 				"tags" : [ "events", "asynchronous I/O", "callback", "module", "npm", "closure" ],
 				"recommendation" : { "nodeschool.io" : "http://nodeschool.io/", "Are all JavaScript callbacks asynchronous?" : "http://stackoverflow.com/questions/19083357/are-all-javascript-callbacks-asynchronous-if-not-how-do-i-know-which-are", "Control flow in Node.js" : "http://book.mixu.net/node/ch7.html" }
 			}
-		]
+		],
+		"recordings" : {
+			"cantonese" : "https://www.youtube.com/watch?v=OvfcgKq7vHc",
+			"english" : "https://www.youtube.com/watch?v=kZ5TN_kpDJ8"
+		}
 	},
 	{
 		"week" : 10,
