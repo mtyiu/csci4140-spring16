@@ -229,7 +229,7 @@
 		"week" : 9,
 		"date" : "17 March 2016",
 		"theme" : "Assignment 2: Back-end development & Node.js",
-		"display" : true,
+		"display" : false,
 		"topics" : [
 			{
 				"title" : "YouTube IFrame Player API",
@@ -277,7 +277,7 @@
 		"week" : 11,
 		"date" : "29 March 2016 (Lecture Time)",
 		"theme" : "Assignment 2: Node.js, Express, WebSocket & Socket.IO",
-		"display" : false,
+		"display" : true,
 		"topics" : [
 			{
 				"title" : "Learning the Basics of Node.js",
@@ -285,21 +285,47 @@
 			},
 			{
 				"title" : "Express Web Framework",
-				"downloads" : null
+				"outline" : [
+					"What is Express?",
+					"Getting started",
+					"Routing",
+					"Using middleware",
+					"Miscellaneous"
+				],
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/9/express.pdf" },
+					{ "type" : "zip", "name" : "Example Code", "link" : "tutorials/9/example_code.zip" },
+					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/csci4140-spring16/tree/gh-pages/tutorials/9/example_code" }
+				],
+				"recommendation" : {
+					"The Unbelievable History of the Express JavaScript Framework" : "http://thefullstack.xyz/history-express-javascript-framework/"
+				}
 			},
 			{
-				"title" : "WebSocket and Socket.IO",
-				"downloads" : null,
-				"recommendations" : [
-					{ "name" : "N-Mario", "href" : "https://cherrry.github.io/N-Mario" },
-					{ "name" : "GitHub (Client Side)", "href" : "https://github.com/cuhk-csci4140/N-Mario" },
-					{ "name" : "GitHub (Server Side)", "href" : "https://github.com/cuhk-csci4140/Node-Mario" },
-					{ "name" : "Video", "href" : "https://www.youtube.com/watch?v=cPkCh6Z9aQ4" }
+				"title" : "Building a chat room with Socket.IO in 20 minutes",
+				"outline" : [
+					"What is WebSocket?",
+					"What is Socket.IO?",
+					"Building a chat room with Socket.IO in 20 minutes",
+					"Lab 1: Display chat room UI",
+					"Lab 2: Integrate Socket.IO",
+					"Lab 3: Single chat room",
+					"Lab 4: Multiple chat rooms",
+					"Namespaces and rooms in Socket.IO",
+					"Socket.IO in Assignment 2"
+				],
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/9/websocket-socket-io.pdf" },
+					{ "type" : "zip", "name" : "Example Code", "link" : "https://github.com/mtyiu/socket-io-chat/archive/master.zip" },
+					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/socket-io-chat" },
+					{ "type" : "html", "name" : "Demo Page", "link" : "https://socket-io-chatroom.herokuapp.com/" }
 				]
 			},
 			{
 				"title" : "Deploying Node.js Applications on Heroku",
-				"downloads" : null
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/9/deploy-nodejs-heroku.pdf" }
+				]
 			}
 		]
 	},
@@ -341,7 +367,7 @@
 			},
 			{
 				"title" : "Submission Guideline",
-				"downloads" : [ { "type" : "link", "name" : "View Notes (HTML)", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/2/git/README.md" } ]
+				"downloads" : [ { "type" : "link", "name" : "View Notes (MD)", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/2/git/README.md" } ]
 			}
 		]
 	},
@@ -360,13 +386,7 @@
 	{
 		"week" : 14,
 		"date" : "21 April 2016",
-		"theme" : "Backbone.js & RESTful APIs",
-		"display" : false,
-		"topics" : [
-			{
-				"title" : "Developing Backbone.js Applications",
-				"note" : "Continued...Please find the download link in Week #13."
-			}
-		]
+		"theme" : "To be determined",
+		"display" : false
 	}
 ]
