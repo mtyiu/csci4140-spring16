@@ -157,16 +157,28 @@
 								</div>
 								<div class="panel-footer" ng-if="tutorial.recordings !== undefined">
 									<div class="row">
-										<div class="col-sm-6" ng-if="tutorial.recordings.cantonese !== null">
+										<div class="col-sm-6" ng-if="tutorial.recordings.cantonese !== undefined">
 											<a href="{{ tutorial.recordings.cantonese }}" class="btn btn-block btn-default" target="_blank">
 												<i class="fa fa-youtube"></i>
 												Recording (Cantonese)
 											</a>
 										</div>
-										<div class="col-sm-6" ng-if="tutorial.recordings.english !== null">
+										<div class="col-sm-6" ng-if="tutorial.recordings.english !== undefined">
 											<a href="{{ tutorial.recordings.english }}" class="btn btn-block btn-default" target="_blank">
 												<i class="fa fa-youtube"></i>
 												Recording (English)
+											</a>
+										</div>
+										<div class="col-sm-6" ng-if="tutorial.recordings.part1 !== undefined">
+											<a href="{{ tutorial.recordings.part1 }}" class="btn btn-block btn-default" target="_blank">
+												<i class="fa fa-youtube"></i>
+												Recording (Part 1)
+											</a>
+										</div>
+										<div class="col-sm-6" ng-if="tutorial.recordings.part2 !== undefined">
+											<a href="{{ tutorial.recordings.part2 }}" class="btn btn-block btn-default" target="_blank">
+												<i class="fa fa-youtube"></i>
+												Recording (Part 2)
 											</a>
 										</div>
 									</div>

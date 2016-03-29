@@ -327,7 +327,11 @@
 					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/9/deploy-nodejs-heroku.pdf" }
 				]
 			}
-		]
+		],
+		"recordings" : {
+			"part1" : "https://www.youtube.com/watch?v=_zd9dMaMlbQ",
+			"part2" : "https://www.youtube.com/watch?v=jTJVaaXGPKk"
+		}
 	},
 	{
 		"week" : 11,
