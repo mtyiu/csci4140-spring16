@@ -349,7 +349,7 @@
 				"title" : "Mongoose: Elegant MongoDB object modeling for Node.js",
 				"downloads" : [
 					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/10/mongoose.pdf" },
-					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/10/example_code/mongoose" },
+					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/csci4140-spring16/blob/gh-pages/tutorials/10/example_code/mongoose-demo" },
 					{ "type" : "zip", "name" : "Example Code", "link" : "tutorials/10/example_code.zip" }
 				]
 			},
