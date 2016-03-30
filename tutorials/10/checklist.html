@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../../favicon.png" rel="icon" type="image/png" />
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<style> body { font-size: 15px; } </style>
+		<title>CSCI 4140 - Tutorial 10: Assignment 2 Final Checklist</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h3>
+					<small>CSCI 4140 - Tutorial 10</small><br />
+					Assignment 2 Final Checklist
+				</h3>
+				<p class="text-muted">
+					Prepared by <a href="http://www.cse.cuhk.edu.hk/~mtyiu/" target="_blank">Matt YIU, Man Tung</a>
+				</p>
+				<hr />
+			</header>
+
+			<main>
+				<p class="lead">
+					<strong>Disclaimer. </strong>
+					The page just helps you to check whether your submission fulfills the requirements of the <a href="http://www.tywong-mole.com/~csci4140/assg2.php" target="_blank">specification</a>. It does not serve as a replacement to the specification. During grading, we will strictly follow the requirements in the specification so please make sure that you read it carefully.
+				</p>
+				<hr />
+
+				<h4>Task 1: Front-end, Responsive Web Client</h4>
+				<h5>Screenshots</h5>
+				<div class="row">
+					<div class="col-sm-5"><a href="../7/downloads/asgn2-desktop.png" target="_blank"><img src="../7/downloads/asgn2-desktop.png" class="img-responsive" alt="Desktop View" /></a></div>
+					<div class="col-sm-4"><a href="../7/downloads/asgn2-tablet.png" target="_blank"><img src="../7/downloads/asgn2-tablet.png" class="img-responsive" alt="Tablet View" /></a></div>
+					<div class="col-sm-3"><a href="../7/downloads/asgn2-phone.png" target="_blank"><img src="../7/downloads/asgn2-phone.png" class="img-responsive" alt="Mobile View" /></a></div>
+				</div>
+
+				<h5>Responsive web design</h5>
+				<ul>
+					<li>Are the video player and QR code only displayed in Desktop View?</li>
+					<li>Are the captions in the remote controller only displayed in Tablet View?</li>
+					<li>Does the CSS used for designing the responsive UI match with the browser width requirements stated in the specification?</li>
+					<li>Can your application be used as a remote client on a desktop computer by reducing the width of the browser window?</li>
+				</ul>
+
+				<h5>Session QR code</h5>
+				<ul>
+					<li>Does the QR code points to the current URL? (Hint: Use a QR code reader to scan it in your smartphone!)</li>
+				</ul>
+
+				<h5>YouTube Video Player (YTVP)</h5>
+				<ul>
+					<li>Is the video player created with YouTube IFrame API?</li>
+					<li>Is the video player disabled in Tablet View or Mobile View? (Hint: Consider the following scenario: if the player button is clicked, there should be no sounds coming out from the player, if you just hide it instead of destroying it.)</li>
+				</ul>
+
+				<h5>YouTube Remote Controller (YTRC)</h5>
+				<ul>
+					<li>Do you use the mouse <code>click</code> event to trigger actions in the controller?</li>
+					<li>Does your remote controller match the behaviors described in the specification?</li>
+					<li>Does your remote controller correctly handle the scenarios that should have no effect on the player?</li>
+				</ul>
+
+				<h5>Video playlist</h5>
+				<ul>
+					<li>Does your playlist support add/remote/clear all operations?</li>
+					<li>Are the video ID and title of the videos displayed in the playlist?</li>
+					<li>Can the player play the selected video (which is selected by mouse <code>click</code>) in the playlist?</li>
+					<li>Is the ordering of the playlist correct?</li>
+					<li>Is the most updated version of the playlist stored on the server?</li>
+				</ul>
+
+				<h5>Miscellaneous</h5>
+				<ul>
+					<li>Do you fix all JavaScript errors thrown from your application?</li>
+					<li>Do you perform input validation?</li>
+					<li>Do you eliminate all the hard-coded values? (Hint: Never use absolute path inside your application!)</li>
+				</ul>
+				<hr />
+
+				<h4>Task 2: Node.js Backend</h4>
+				<h5>Web page hosting</h5>
+				<ul>
+					<li>Does the server serve the static HTML page and all public assets (JavaScript, CSS, etc.) for the application correctly?</li>
+				</ul>
+
+				<h5>Session creation, membership, and management</h5>
+				<ul>
+					<li>Does the server create and redirect to a new session when the client enters the entry page of your application?</li>
+					<li>Can the client join an existing session by using the session URL (either by typing manually or scanning the QR code)?</li>
+					<li>Does your application support multiple sessions?</li>
+				</ul>
+
+				<h5>Playlist synchronization over Socket.IO</h5>
+				<ul>
+					<li>Is the playlist retrieved from the server correctly?</li>
+				</ul>
+
+				<h5>Remote controller action broadcast over Socket.IO</h5>
+				<ul>
+					<li>Can your application trigger an action in the video player from a remote client of the same session?</li>
+				</ul>
+				<hr />
+
+				<h4>Before submission</h4>
+				<ul>
+					<li>Do you deploy your application on Heroku and test whether everything works?</li>
+					<li>Do you update the contents in <code>package.json</code>?</li>
+					<li>Do you include all required packages in <code>package.json</code>?</li>
+					<li>Do you use the environment variables in Heroku (e.g., <code>PORT</code> for creating an HTTP server), instead of using hard-coded values, to set up the server?</li>
+				</ul>
+				<hr />
+
+				<p class="lead text-center">
+					Hope you enjoy this assignment!
+				</p>
+
+			</main>
+
+			<footer>
+				<p class="text-muted text-right">
+					Last Updated: 30 March 2016
+				</p>
+			</footer>
+		</div>
+
+		<script src="../../js/ga.js"></script>
+	</body>
+</html>

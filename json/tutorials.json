@@ -351,7 +351,7 @@
 			},
 			{
 				"title" : "Remote debugging on Android or iOS devices",
-				"downloads" : null,
+				"downloads" : [ { "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/10/remote-debugging-android-ios.pdf" } ],
 				"outline" : [
 					"Why remote debugging?",
 					"Requirements",
@@ -362,11 +362,11 @@
 			},
 			{
 				"title" : "Debugging WebSocket in Chrome or Firefox",
-				"downloads" : null
+				"downloads" : [ { "type" : "link", "name" : "View Notes (HTML)", "link" : "tutorials/10/ws-debug/" } ]
 			},
 			{
 				"title" : "Assignment 2 Final Checklist",
-				"downloads" : null,
+				"downloads" : [ { "type" : "link", "name" : "View Notes (HTML)", "link" : "tutorials/10/checklist.html" } ],
 				"note" : "Read this page carefully before you submit your assignment!"
 			},
 			{
@@ -382,7 +382,7 @@
 		"display" : false,
 		"topics" : [
 			{
-				"title" : "Developing Backbone.js Applications",
+				"title" : "Developing a To-do list with Backbone.js",
 				"downloads" : null
 			}
 		]

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../../../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../../../favicon.png" rel="icon" type="image/png" />
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<style> body { font-size: 15px; } </style>
+		<title>CSCI 4140 - Tutorial 10: Debugging WebSocket in Chrome or Firefox</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h3>
+					<small>CSCI 4140 - Tutorial 10</small><br />
+					Debugging WebSocket in Chrome or Firefox
+				</h3>
+				<p class="text-muted">
+					Prepared by <a href="http://www.cse.cuhk.edu.hk/~mtyiu/" target="_blank">Matt YIU, Man Tung</a>
+				</p>
+				<hr />
+			</header>
+
+			<main>
+				<h4>Introduction</h4>
+				<p class="lead">It will be useful if you can debug the WebSocket connections in your browser to eliminate any connection issues. In this tutorial, we will go through the process of debugging with the developer tools in Chrome or Firefox. Note importantly that Chrome is preferred as it provides better support over WebSocket.</p>
+				<hr />
+
+				<h4>Debugging WebSocket in Chrome</h4>
+				<h5>Steps</h5>
+				<ol>
+					<li>Open the Developer Tools by selecting "<strong>More Tools</strong>" &gt; "<strong>Developer tools</strong>".</li>
+					<li>Select the <strong>Network</strong> tab.</li>
+					<li>Navigate to or reload the page that you want to debug.</li>
+					<li>You will see a number of requests in the window. Now filter all WebSocket connections by selecting the "<strong>WebSockets</strong>" tab.</li>
+					<li>
+						All established WebSocket connections will be shown here. <br />
+						<div align="center"><a href="chrome-1.png" target="_blank"><img src="chrome-1.png" class="img-responsive" /></a></div>
+						<br />
+					</li>
+					<li>
+						You can select the interested connection and view its request and response headers. <br />
+						<div align="center"><a href="chrome-2.png" target="_blank"><img src="chrome-2.png" class="img-responsive" /></a></div>
+						<br />
+					</li>
+					<li>
+						To view the contents of each incoming and outgoing packets (named as "frames") for the WebSocket connection, choose the "<strong>Frames</strong>" tab. You can find all the messages in this connection. If you use Socket.IO to establish the WebSocket connection, you may find some extra information in which the Socket.IO library uses to maintain the states.
+						<div align="center"><a href="chrome-3.png" target="_blank"><img src="chrome-3.png" class="img-responsive" /></a></div>
+						<br />
+					</li>
+				</ol>
+				<hr />
+
+				<h4>Understanding the error messages</h4>
+				<ul>
+					<li>
+						If you forget to set up the server side for listening WebSocket connections (e.g., the <code>socket.io</code> module in your application), you may encounter the following error in the Console.
+						<div align="center"><a href="chrome-4.png" target="_blank"><img src="chrome-4.png" class="img-responsive" /></a></div>
+						<br />
+					</li>
+					<li>
+						If the browser cannot connect to the server using WebSocket (e.g., the server application crashes), you may receive the <code>Connection Refused</code> error.
+						<div align="center"><a href="chrome-5.png" target="_blank"><img src="chrome-5.png" class="img-responsive" /></a></div>
+						<br />
+					</li>
+				</ul>
+
+				<h4>Debugging WebSocket in Firefox</h4>
+				<h5>Steps</h5>
+				<ol>
+					<li>
+						Open the Developer Tool for Network by selecting "<strong>Developer</strong>" &gt; "<strong>Network</strong>".
+						<div align="center"><a href="firefox-0.png" target="_blank"><img src="firefox-0.png" class="img-responsive" /></a></div>
+						<br />
+					</li>
+					<li>Navigate to or reload the page that you want to debug.</li>
+					<li>
+						You will see a number of requests in the window.
+						<div align="center"><a href="firefox-1.png" target="_blank"><img src="firefox-1.png" class="img-responsive" /></a></div>
+						<br />
+					</li>
+					<li>
+						Now filter all WebSocket connections by selecting the "<strong>Other</strong>" tab. All established WebSocket connections will be shown here. <br />
+						<div align="center"><a href="firefox-2.png" target="_blank"><img src="firefox-2.png" class="img-responsive" /></a></div>
+						<br />
+					</li>
+					<li>
+						You can select the interested connection and view its request and response headers. <br />
+						<div align="center"><a href="firefox-3.png" target="_blank"><img src="firefox-3.png" class="img-responsive" /></a></div>
+						<br />
+					</li>
+					<li>
+						Different from Chrome, Firefox does not natively support viewing the frames of WebSocket connections. Here comes a good reason to switch to Chrome :-)
+					</li>
+				</ol>
+
+				<h4>Identifying possible issues</h4>
+				<p>Firefox's developer tools do not provide a good support to WebSocket debugging. Yet, you are able to identify some connection problems by inspecting the requests sent.</p>
+				<p>If you see multiple <code>GET</code> requests sending to the same URL without responses, it is possible that the WebSocket connection fails to esatablish.</p>
+				<div align="center"><a href="firefox-4.png" target="_blank"><img src="firefox-4.png" class="img-responsive" /></a></div>
+				<hr />
+			</main>
+
+			<footer>
+				<p class="text-muted text-right">
+					Last Updated: 30 March 2016
+				</p>
+			</footer>
+		</div>
+
+		<script src="../../../js/ga.js"></script>
+	</body>
+</html>
