@@ -1,5 +1,5 @@
 var mongoose = require( 'mongoose' );
-var uristring = process.env.MONGOLAB_URI || 'mongodb://heroku_bbxgs9qk:egqml99fqbcc82vopjabco1apr@ds025419.mlab.com:25419/heroku_bbxgs9qk';
+var uristring = process.env.MONGOLAB_URI || 'mongodb://XXX';
 
 var db = mongoose.connection;
 
