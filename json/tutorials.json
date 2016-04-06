@@ -277,7 +277,7 @@
 		"week" : 11,
 		"date" : "29 March 2016 (Lecture Time)",
 		"theme" : "Assignment 2: Node.js, Express, WebSocket & Socket.IO",
-		"display" : true,
+		"display" : false,
 		"topics" : [
 			{
 				"title" : "Learning the Basics of Node.js",
@@ -343,7 +343,7 @@
 		"week" : 12,
 		"date" : "7 April 2016",
 		"theme" : "Assignment 2: MongoDB & Remote Debugging",
-		"display" : false,
+		"display" : true,
 		"topics" : [
 			{
 				"title" : "Mongoose: Elegant MongoDB object modeling for Node.js",
