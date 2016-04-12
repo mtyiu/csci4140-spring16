@@ -28,7 +28,7 @@ db.once( 'open', function() {
 		else
 			console.log( 'Saved' );
 
-		disconnect();
+		disconnect(); // Note: No need to disconnect if you are running an HTTP server
 	} );
 } );
 

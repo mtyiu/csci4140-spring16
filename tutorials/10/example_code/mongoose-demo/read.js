@@ -16,14 +16,14 @@ db.once( 'open', function() {
 	// Find all users
 	User.find( function( err, users ) {
 		console.log( users );
-		disconnect();
+		disconnect(); // Note: No need to disconnect if you are running an HTTP server
 	} );
 
 	// Find by name
 	/*
 	User.find( { name : 'Alice' }, function( err, users ) {
 		console.log( users );
-		disconnect();
+		disconnect(); // Note: No need to disconnect if you are running an HTTP server
 	} );
 	*/
 } );

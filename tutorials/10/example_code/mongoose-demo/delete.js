@@ -25,7 +25,7 @@ db.once( 'open', function() {
 
 		user.remove( function( err ) {
 			console.log( 'Removed' );
-			disconnect();
+			disconnect(); // Note: No need to disconnect if you are running an HTTP server
 		} );
 	} );
 } );

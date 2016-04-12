@@ -30,7 +30,7 @@ db.once( 'open', function() {
 			else
 				console.log( 'Updated' );
 
-			disconnect();
+			disconnect(); // Note: No need to disconnect if you are running an HTTP server
 		} );
 	} );
 } );
