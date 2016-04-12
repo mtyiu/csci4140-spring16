@@ -344,7 +344,6 @@
 		"date" : "7 April 2016",
 		"theme" : "Assignment 2: MongoDB & Remote Debugging",
 		"display" : true,
-		"current" : true,
 		"topics" : [
 			{
 				"title" : "Mongoose: Elegant MongoDB object modeling for Node.js",
@@ -395,11 +394,37 @@
 		"week" : 13,
 		"date" : "14 April 2016",
 		"theme" : "Backbone.js & RESTful APIs",
-		"display" : false,
+		"display" : true,
+		"current" : true,
 		"topics" : [
 			{
-				"title" : "Developing a To-do list with Backbone.js",
-				"downloads" : null
+				"title" : "45-minute tour on Backbone.js",
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "tutorials/11/backbone.pdf" },
+					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/backbone-todo-list" },
+					{ "type" : "zip", "name" : "Example Code", "link" : "https://github.com/mtyiu/backbone-todo-list/archive/master.zip" }
+				],
+				"outline" : [
+					"Introduction - MVC (Model-View-Controller) & Backbone.js",
+					"Develop a To-do list in Backbone.js",
+					"Create the back-end – RESTful APIs",
+					"Connect the front-end and back-end"
+				],
+				"recommendation" : {
+					"Developing Backbone.js Applications" : "https://addyosmani.com/backbone-fundamentals/"
+				}
+			},
+			{
+				"title" : "Symfony: PHP framework for web projects (from last year tutorial)",
+				"note" : "Symfony is a well-known PHP MVC framework. This set of slides covers some of the important topics in Symfony. You are assumed to have a good background of PHP. Note that this is for your own reference only and will not be taught in the tutorial.",
+				"downloads" : [
+					{ "type" : "pdf", "name" : "Download Notes", "link" : "http://mtyiu.github.io/csci4140-spring15/tutorials/13/symfony.pdf" },
+					{ "type" : "html", "name" : "Guide of Developing A Guest book", "link" : "http://mtyiu.github.io/csci4140-spring15/tutorials/13/guestbook.html" },
+					{ "type" : "zip", "name" : "Example Code", "link" : "http://mtyiu.github.io/csci4140-spring15/tutorials/13/example_code.zip" },
+					{ "type" : "github", "name" : "Example Code", "link" : "https://github.com/mtyiu/symfony-demo-guestbook" },
+					{ "type" : "link", "name" : "The Symfony Book (HTML)", "link" : "http://symfony.com/doc/current/book/index.html" },
+					{ "type" : "link", "name" : "The Symfony Cookbook (HTML)", "link" : "http://symfony.com/doc/current/cookbook/index.html" }
+				]
 			}
 		]
 	},
