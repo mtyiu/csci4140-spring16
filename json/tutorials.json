@@ -426,7 +426,10 @@
 					{ "type" : "link", "name" : "The Symfony Cookbook (HTML)", "link" : "http://symfony.com/doc/current/cookbook/index.html" }
 				]
 			}
-		]
+		],
+		"recordings" : {
+			"cantonese" : "https://www.youtube.com/watch?v=2e_hoNWkVgk"
+		}
 	},
 	{
 		"week" : 14,
