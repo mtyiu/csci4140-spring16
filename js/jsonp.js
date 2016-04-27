@@ -5,7 +5,7 @@ $( function() {
 
 	var query = function() {
 		$.ajax( {
-			url : 'http://52.76.12.160:41400/jsonp/2' + ( $( '#account' ).val() != '' ? '/' + $( '#account' ).val() : '' ),
+			url : 'http://52.76.12.160:41400/jsonp/' + asg + ( $( '#account' ).val() != '' ? '/' + $( '#account' ).val() : '' ),
 			jsonp : 'callback',
 			dataType : 'jsonp',
 			success : function( data ) {
