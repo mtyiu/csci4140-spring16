@@ -12,11 +12,10 @@ app.controller( 'DefaultController', function ( $scope, $http ) {
 		$http.get( 'json/' + jsons[ i ] + '.json' ).success( function() {
 			var key = jsons[ i ];
 			return function( data ) {
-				console.log( data )
 				$scope[ key ] = data;
 				$scope.count++;
 				if ( $scope.count == jsons.length ) {
-					$scope.htmlReady();
+					$scope.htmlReady && $scope.htmlReady();
 				}
 			}
 		}() );
